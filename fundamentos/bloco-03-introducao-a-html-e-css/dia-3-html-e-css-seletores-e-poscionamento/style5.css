@@ -1,0 +1,50 @@
+ol{
+    background: yellow;
+}
+ol li:nth-of-type(2n){
+    color: green;  
+}
+ol li:nth-of-type(2n+1){
+    text-transform: uppercase;
+
+}
+h1, h2, h3{
+    color: red;
+}
+h1, h2, h3 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+}
+ul:nth-of-type(1) li:nth-child(-n+3){
+    color: blue;
+}
+ul:nth-of-type(1) li:nth-of-type(2), ul:nth-of-type(1) li:nth-of-type(3){
+    background: pink;
+}
+#stack a:link{
+    font-weight: bold;
+    color: orange;
+    
+}
+#W3 a:link {
+    font-weight: bold;
+    color: green;
+}
+#MDN a:link{
+    font-weight: bold;
+    color: black;
+}
+#Dev a:link {
+    font-weight: bold;
+    color: yellow;
+}
+#Trybe a:link {
+    font-weight: bold;
+    color: green;
+}
