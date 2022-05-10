@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+h1, p {
+    text-align: center;
+}
+li:hover{
+    background-color: brown;
+}
+li:active{
+    color: aqua;
+    font-family: 'Macondo', cursive;
+}
+li {
+    list-style: none
+}
