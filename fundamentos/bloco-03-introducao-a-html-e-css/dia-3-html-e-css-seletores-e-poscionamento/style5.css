@@ -27,23 +27,24 @@ ul:nth-of-type(1) li:nth-child(-n+3){
 ul:nth-of-type(1) li:nth-of-type(2), ul:nth-of-type(1) li:nth-of-type(3){
     background: pink;
 }
-#stack {
+#stack a:link{
     font-weight: bold;
     color: orange;
+    
 }
-#W3:link {
+#W3 a:link {
     font-weight: bold;
     color: green;
 }
-#MDN {
+#MDN a:link{
     font-weight: bold;
     color: black;
 }
-#Dev {
+#Dev a:link {
     font-weight: bold;
     color: yellow;
 }
-#Trybe {
+#Trybe a:link {
     font-weight: bold;
     color: green;
 }
