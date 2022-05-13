@@ -8,7 +8,7 @@ let arr = [];
 let arr2 = [];
 
 
-for (let index = 0; index < numbers.length; index++) {
+for (let index = 0; index < numbers.length; index += 1) {
     total = total + numbers[index];
     if (contador < numbers[index]) {
         contador = numbers[index]
@@ -22,10 +22,10 @@ for (let index = 0; index < numbers.length; index++) {
 
 }
 final = total/(numbers.length-1)
-for (let index = 0; index < 26; index++) {
+for (let index = 0; index < 26; index += 1) {
     arr.push(index);
 }
-for (let index = 0; index < numbers.length; index++) {
+for (let index = 0; index < numbers.length; index += 1) {
     arr2.push(numbers[index]/2);
     
 }
