@@ -1,0 +1,14 @@
+/*const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "red";
+document.getElementById("page-title").innerText = "Tibia";
+document.getElementById("second-paragraph").innerHTML = "Jogos que marcaram"
+document.getElementById("subtitle").innerHTML = "Mu Online";
+document.getElementsByClassName("para")[0].style.color="blue"
+document.getElementsByTagName("p")[1].style.color="yellow"*/
+const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "red";
+document.querySelector("#page-title").innerText = "Tibia";
+document.querySelector("#second-paragraph").innerHTML = "Jogos que marcaram"
+document.querySelector("#subtitle").innerHTML = "Mu Online";
+document.querySelectorAll(".para")[0].style.color="blue"
+document.querySelectorAll(".para")[1].style.color="yellow"
