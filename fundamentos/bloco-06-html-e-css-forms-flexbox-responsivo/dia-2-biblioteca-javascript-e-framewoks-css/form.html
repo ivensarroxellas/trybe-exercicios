@@ -4,50 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heder da página</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Forms Exercício</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>    
 <body>
-        <header>Header da página<header>
+    <header class="display-4 text-center border border-dark bg-success p-2 text-white">Header da página</header>
+    <section>
         <form action="" method="get" >
-            <section >
-                <label for="nome">Nome: 
+            <section class="fs-5 text-start pt-2 border border-dark container" >
+                <label for="nome">Nome: </label>
                 <input type="text" name="name" value="" size="20" minlength="10" maxlength="40">
-                </label>
                 <br>
-                <label for="email">Email:
+                <label class="pt-2" for="email">Email: </label>
                 <input type="text" name="email" size="20" minlength="10" maxlength="50">
-                </label>
                 <br>
-                <section>
-                    <input type="radio" >Cidade
-                    <input type="radio" >Campo
-                    <input type="radio" >Praia
-                    <input type="radio" >Montanhas
+                <section class="pt-3">
+                    <input class="form-check-input mt-0" type="radio" >Cidade
+                    <input class="form-check-input mt-0" type="radio" >Campo
+                    <input class="form-check-input mt-0" type="radio" >Praia
+                    <input class="form-check-input mt-0" type="radio" >Montanhas
                 </section>
+                <label for="espaco">Espaço para digitar a resposta: </label>
                 <br>
-                <label for="espaco">Espaço para digitar a resposta:
+                <textarea class="pt-2" name="sobre-mim" id="espaco"></textarea>
                 <br>
-                <textarea name="sobre-mim" ></textarea>
-                </label>
-                <br>
-                <label for="data">Data:
+                <label class="pt-2" for="data">Data: </label>
                 <input type="text" name="data" placeholder="  dd/mm/aaaa">
-                </label>
                 <br>
-                <label for="concordo1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? 
-                <input type="checkbox" value="Concordo 1"  name="concordo1">
-                </label>
+                <label class="pt-4"for="concordo1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+                <input type="checkbox" value="Concordo 1"  name="concordo1" id="concordo2">
                 <br>
-                <label for="concordo2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
-                <input type="checkbox" value="Concordo 2"  name="concordo2" >
-                </label> 
+                <label for="concordo2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. </label>
+                <input  type="checkbox" value="Concordo 2" name="concordo2" id="concordo2">
             </section>
             <section >
-                <button >Enviar</button>
-                <button >Apagar</button>
+                <button class="fs-4 btn btn-success d-grid gap-2 col-3" type="submit">Enviar</button>
+                <button class="fs-4 btn btn-danger d-grid gap-2 col-3" type="reset">Apagar</button>
             </section>
         </form>
-    <script src="script.js"></script>
+    </section>
 </body>
 </html>
