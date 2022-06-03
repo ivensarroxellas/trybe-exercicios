@@ -50,6 +50,7 @@ body{
   width: 543px;
   flex-wrap: wrap;
   align-self: center;
+  margin: auto;
 }
 .imag{
   padding: 10px;
